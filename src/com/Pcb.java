@@ -9,6 +9,7 @@ public class Pcb {
 	int waitTime;
 	int waitedTime;
 	public Pcb(){}
+	@Override
 	public String toString(){
         return name+"\t"+runTime+"\t"+prior+"\t"+state+"\t"+runedTime+"\t"+waitPoint+"\t"+waitTime+"\t"+waitedTime;
 	}
